@@ -6,7 +6,6 @@
 
 html {
 	 box-sizing: border-box;
-
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -20,23 +19,36 @@ html {
 body { 
 	margin: 0;
 	padding: 0;
+	background-color: #89AEC7
 }
 
 .img-flex {
 	display: block;
 	width: 100%;
-}
-
-.masthead {
-	text-align: center;
-	background-color:#6DABE4;
+	
 	
 }
+
+
+.masthead {
+	background: url(../img/intro-background.png) no-repeat center top; 
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	
+}
+
 
 .nav {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	
 }
 
 
@@ -47,33 +59,49 @@ body {
 
 .footer {
 	text-align: center;
+	opacity: 0.8;
 }
 
 .portfolio {
-	background-color: #8A8989;
 	text-align: center;
+	padding-top: 20%;
+	padding-bottom: 10%;
+	background-color: #E8A263;
 	
 }
 
 .intro {
-	background-color:#6DABE4; 
+	background: url(../img/intro-background.png) no-repeat center top; 
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	color: #FFFFFF;
 	text-align: center;
+	text-transform: uppercase; 
+	padding-top: 20%;
+	padding-bottom: 5%;
+	
 }
 
 .about {
-	background-color:#6DABE4; 
-	text-align: center;
+		text-align: center;
+		margin-top: 20%;
+		margin-bottom: 10%;
 }
 
-.contact {
-	background-color: #8A8989; 
+.contact { 
 	text-align: left;
+	background-color: #E8A263;
+	padding-top: 20%;
+	padding-bottom: 10%;
 	
 }
 
 
 .logo {
-	width: 30%;
+	width: 50%;
+	min-width: 30%;
+	
 }
 
 .portrait {
@@ -229,12 +257,14 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 
-	.portfolio {
-	background-color: #8A8989;
+.portfolio {
+	background-color: #E8A263;
 	padding-left: 10%;
 	padding-right: 5%;
 	
 }
+
+
 
 /*end of portfolio pieces */
 
@@ -245,15 +275,40 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	}
 	
 	.portfolio {
-	background-color: #8A8989;
 	padding-left: 20%;
 	padding-right: 20%;
 	
 }
 
+.small-port {
+	position: relative;
+	display: block;
+	min-width: 30%;
+
+
 }
 
-@media only screen and (min-width: 38em) {
+}
+
+@media only screen and (max-width: 30em) {
+
+	.intro {
+	height: 20em;
+}
+
+	.effect-zoe {
+		display: none;
+	} 
+	
+	.small-port {
+	position: relative;
+	display: block;
+	min-width: 30%;
+}	
+
+}
+
+@media only screen and (min-width: 30.01em) {
 	
 	.masthead {
 		text-align: left;
@@ -261,12 +316,11 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 	.portfolio {
-	background-color: #8A8989;
+	background-color: #E8A263;
 	padding-left: 15%;
 	padding-right: 15%;
 	
 }
-	
 
 
 	.nav { 
@@ -283,12 +337,23 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 }
 
+
+	.small-port {
+		display: none;
+	} 
+
+
+
 }
 
+@media only screen and (max-width: 38em) {
+	
+	
+	
+}
 
 @media only screen and (min-width: 60em) {
 
-}
 
 /*grid small, medium large screens */
 
@@ -297,17 +362,15 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	overflow: hidden;
 }
 
-.portfolio-p {
+	.portfolio-p {
 		width: 100%;
 		
 	}
 
 	.portfolio{
-	background-color: #8A8989;
+	background-color: #E8A263;
 	padding-left: 20%;
 
-	
-	
 }
 
 
@@ -321,7 +384,17 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 		text-align: center;
 
 }
-	
 
+.intro {
+	padding-left: 13%;
+	
+}
+
+
+}
+
+@media only screen and (max-width: 60em) {
+	
+	
 
 }
