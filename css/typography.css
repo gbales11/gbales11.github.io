@@ -1,6 +1,18 @@
 html {
   font: normal 100%/1.5 Georgia,serif;
+  
 }
+
+a{ 
+	color: #050000;
+	text-decoration: none;
+	}
+
+a:hover { 
+	color: #ffffff;
+	
+}
+
 
 @media only screen and (min-width: 60em) {
 
@@ -191,3 +203,4 @@ sub {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
 }
+
