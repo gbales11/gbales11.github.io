@@ -139,6 +139,8 @@ ul {
 .logo {
 	width: 50%;
 	min-width: 30%;
+	align-content: center;
+
 	
 }
 
@@ -423,11 +425,6 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	.nav-footer {
 		text-align: center;
 
-}
-
-	.intro {
-		padding-left: 10%;
-	
 }
 
 
