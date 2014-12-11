@@ -45,11 +45,13 @@ ul {
 	padding:20px;
 	background-color:#000000;
 	opacity: 0.3;
+	text-align:center;
 }
 
 .masthead a {
 	text-decoration:none;
 	color:#ffffff;
+	text-align:center;
 }
 
 .masthead h1 {
@@ -60,6 +62,7 @@ ul {
 	list-style-type:none;
 	margin:0;
 	padding:0;
+	text-align:center;
 }
 
 .nav-top-container {
@@ -69,11 +72,13 @@ ul {
 }
 
 .nav-top li {
-	display:inline-block;	
+	display:inline-block;
+	text-align:center;	
 }
 
 .name-container {
 	position:relative;	
+	text-align:center;
 }
 
 
@@ -81,6 +86,11 @@ ul {
 .footer {
 	text-align: center;
 	opacity: 0.8;
+	text-transform: uppercase;
+	width:100%;
+	z-index: 99999;
+	padding:20px;
+
 }
 
 .portfolio {
@@ -101,6 +111,7 @@ ul {
 	text-transform: uppercase; 
 	padding-top: 20%;
 	padding-bottom: 5%;
+	max-height: 90%;
 	
 }
 
@@ -111,8 +122,9 @@ ul {
 }
 
 .contact { 
-	text-align: left;
+	text-align: center;
 	background-color: #E8A263;
+	color:#000000;
 	padding-top: 10%;
 	padding-bottom: 5%;
 	
@@ -126,7 +138,7 @@ ul {
 }
 
 .portrait {
-	width: 30%;
+	width: 50%;
 }
 
 /*beggining of portfolio pieces */
