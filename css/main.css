@@ -105,14 +105,12 @@ ul {
 	background: url(../img/intro-background.png) no-repeat center top; 
 	background-size: cover;
 	background-attachment: fixed;
-	margin: 0;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase; 
 	padding-top: 20%;
 	padding-bottom: 5%;
-	max-height: 90%;
-	
+
 }
 
 .about {
