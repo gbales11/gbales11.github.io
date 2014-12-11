@@ -43,7 +43,8 @@ ul {
 	width:100%;
 	z-index: 99999;
 	padding:20px;
-	background-color:#222222;
+	background-color:#000000;
+	opacity: 0.3;
 }
 
 .masthead a {
@@ -148,7 +149,7 @@ ul {
 	min-width: 320px;
 	max-width: 480px;
 	width: 48%;
-	background: #3085a3;
+	background: #175A70;
 	text-align: center;
 	cursor: pointer;
 }
@@ -158,7 +159,7 @@ ul {
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.8;
+	
 }
 
 .grid figure figcaption {
@@ -168,11 +169,14 @@ ul {
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	
+	
 }
 
 .grid figure figcaption::before,
 .grid figure figcaption::after {
 	pointer-events: none;
+	
 }
 
 .grid figure figcaption,
@@ -229,14 +233,15 @@ figure.effect-zoe h2 {
 figure.effect-zoe p.description {
 	position: absolute;
 	bottom: 4em;
-	padding: 2em;
-	color: #fff;
+	color: #000000;
 	text-transform: none;
 	font-size: 90%;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
-	-webkit-backface-visibility: hidden; 
+	-webkit-backface-visibility: visible; 
+	background-color: #FBFAFA;
+	background-size: cover;
 }
 
 
@@ -301,7 +306,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	
 }
 
-.small-port {
+	.small-port {
 	position: relative;
 	display: block;
 	min-width: 30%;
@@ -326,6 +331,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	display: block;
 	min-width: 30%;
 }	
+
 
 }
 
@@ -364,8 +370,9 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 @media only screen and (max-width: 38em) {
 	
-	
-	
+.giga {
+	width: 100%;
+}
 }
 
 @media only screen and (min-width: 60em) {
@@ -401,8 +408,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 }
 
-.intro {
-	padding-left: 10%;
+	.intro {
+		padding-left: 10%;
 	
 }
 
